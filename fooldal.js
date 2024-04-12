@@ -2,8 +2,8 @@ function $(id){
     return document.getElementById("id")
 }
 let szavak=["first"]
+let rand_szo=szavak[Math.random() * 20-1].toUpperCase()
 let szo=[]
-alert("JÓ")
 $("Q").addEventListener("onclick",()=>{
     if(szo.length<5){
     szo.push("Q")}
@@ -87,8 +87,19 @@ $("M").addEventListener("onclick",()=>{
     if(szo.length<5){szo.push("M")}
 })
 $("DEL").addEventListener("onclick",()=>{
-
+    szo.pop()
 })
 $("ENTER").addEventListener("onclick",()=>{
-
+    if(szo.length===5){
+        for(let i=0;i<szo.length;i++){
+        if(rand_szo.includes(szo[i])){
+            if(rand_szo.charAt(i)==szo[i]){
+                //zöld
+            }
+        else{
+        //sarga
+        }
+        }}
+        
+    }
 })
