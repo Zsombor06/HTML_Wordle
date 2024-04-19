@@ -14,6 +14,7 @@
     margin: 0 auto;
 }
 
+
 #footer {
     width: 30%;
     height: 100%;
@@ -22,3 +23,88 @@
     flex-wrap: wrap;
     
  }
+
+#box1{
+        border: 3px solid lightgray;
+    max-height: 80px;
+    height: 100%;
+    aspect-ratio: 1/1;
+
+
+    color: black;
+    font-size: 36px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+
+}
+#box2{
+    border: 3px solid lightgray;
+    max-height: 80px;
+    height: 100%;
+    aspect-ratio: 1/1;
+
+
+    color: black;
+    font-size: 36px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+
+}
+#box3{
+    border: 3px solid lightgray;
+    max-height: 80px;
+    height: 100%;
+    aspect-ratio: 1/1;
+
+
+    color: black;
+    font-size: 36px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+
+}
+#box4{
+    border: 3px solid lightgray;
+    max-height: 80px;
+    height: 100%;
+    aspect-ratio: 1/1;
+
+
+    color: black;
+    font-size: 36px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+#box5{
+    border: 3px solid lightgray;
+    max-height: 80px;
+    height: 100%;
+    aspect-ratio: 1/1;
+
+
+    color: black;
+    font-size: 36px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+
+}
+.jo{background-color: greenyellow;}
+.rossz{background-color: red;}
+.hely{background-color: yellow;}
+
