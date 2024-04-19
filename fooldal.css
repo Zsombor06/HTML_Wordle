@@ -1,9 +1,9 @@
 #box{
-    width: 60px;
-    height: 60px;
-    padding: 10px;
-    border: 4px solid gray;
-    margin: 2px;
+    border: 3px solid lightgray;
+    max-height: 80px;
+    height: 100%;
+    aspect-ratio: 1/1;
+
 
     color: black;
     font-size: 36px;
@@ -11,19 +11,14 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    margin: 0 auto;
+}
 
-}
 #footer {
-    position:absolute;
-    bottom:0;
-    width:100%;
-    height:60px;
-    align-items: center;
-    padding-left: 30%;
+    width: 30%;
+    height: 100%;
+    margin: 0 auto;
+    display:flex;
+    flex-wrap: wrap;
+    
  }
-#sor{
-    padding-top: 10px;
-    padding-right: 150px;
-    padding-left: 150px;
-    padding-bottom: 10px;
-}
