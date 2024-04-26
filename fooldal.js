@@ -156,20 +156,7 @@ $("X").addEventListener("click",()=>{
 $("C").addEventListener("click",()=>{
     if(szo.length<5){ szo.push("C")
     hely="box"+sor+""+oszlop
-    if($(hely).innerHTML != ""){
-        if($(hely).innerHTML !=""){
-            if($(hely).innerHTML != ""){
-                if($(hely).innerHTML !=""){
-                    $(hely).innerHTML = szo[oszlop]
-        }
-                else{$(hely).innerHTML = szo[oszlop]
-       
-
-    }}else{$(hely).innerHTML = szo[oszlop]}}
-    else{
-        $(hely).innerHTML = szo[oszlop]
-    }}
-    else{$(hely).innerHTML = szo[oszlop]}
+    $(hely).innerHTML=szo[oszlop]
     oszlop++}
 })
 $("V").addEventListener("click",()=>{
